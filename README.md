@@ -5,10 +5,10 @@ Matching Networks for One Shot Learning
 논문) A Label을 학습한 Matching Network로 B Label을 재학습 없이도 Test 가능  
 ==> 추후 실험 진행해보자.
 
-## paper
+## Paper
 https://arxiv.org/abs/1606.04080
 
-## dataset
+## Dataset
 MNIST (논문에서는 omniglot, ImageNet 으로 실험되어 있음, 본 코드에서는 MNIST 실험 진행)
 
 ## Matching Network for One Shot Learning Model
@@ -28,7 +28,7 @@ Matching Network for One Shot Learning Model을 구현한 코드
 ## train_and_test.py
 Matching Network for One Shot Learning Model을 학습하고 테스트 하는 코드.
 
-## Test Result (CNN vs Matching Network for One Shot Learning)
+## MNIST dataset Test Result (CNN vs Matching Network for One Shot Learning)
 Matching Network는 10-Way 5-Shot. (way: # classes, shot: # memory data per class)  
 CNN의 학습 데이터: Matching Network의 학습 데이터 + shot (CNN은 shot이 필요 없으므로)  
   
