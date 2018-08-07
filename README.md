@@ -2,7 +2,7 @@
 Matching Networks for One Shot Learning
 
 논문) 적은 수의 데이터로도 딥러닝을 학습할 수 있도록 하는 모델  
-논문) A Label을 학습한 Matching Network로 B Label을 재학습 없이도 Test 가능  
+논문) A Label을 학습한 Matching Network로 B Label을 재학습 없이도 분류 가능  
 ==> 추후 실험 진행해보자.
 
 ## Paper
