@@ -26,5 +26,5 @@ Matching Network for One Shot Learning Model을 학습하고 테스트 하는 �
 
 ## Test Result (CNN vs Matching Network for One Shot Learning)
 Matching Network는 10-Way 5-Shot. (way: # classes, shot: # memory data per class)  
-CNN의 학습 데이터: Matching Network의 학습 데이터 + shot (CNN은 shot이 필요 없으므로)
-![testImage](./result/result.png)
+CNN의 학습 데이터: Matching Network의 학습 데이터 + shot (CNN은 shot이 필요 없으므로)  
+![testImage](./result/result.PNG)
