@@ -11,6 +11,10 @@ https://arxiv.org/abs/1606.04080
 ## Dataset
 MNIST (논문에서는 omniglot, ImageNet 으로 실험되어 있음, 본 코드에서는 MNIST 실험 진행)
 
+## Env
+TensorFlow version == 1.4  
+GTX-1080TI  
+
 ## Matching Network for One Shot Learning Model
 논문에서 설명하는 모델  
 사용 코드: one_shot_learning_class.py, get_S_B_MNIST.py, train_and_test.py
