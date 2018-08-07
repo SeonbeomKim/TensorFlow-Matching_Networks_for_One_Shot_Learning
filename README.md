@@ -5,7 +5,7 @@ Matching Networks for One Shot Learning
 https://arxiv.org/abs/1606.04080
 
 ## dataset
-MNIST (논문에서는 omniglot, ImageNet 으로 실험되어 있으므로 MNIST 실험 진행)
+MNIST (논문에서는 omniglot, ImageNet 으로 실험되어 있음, 본 코드에서는 MNIST 실험 진행)
 
 ## Matching Network for One Shot Learning Model
 논문에서 설명하는 모델  
