@@ -1,6 +1,10 @@
 # TensorFlow-Matching_Networks_for_One_Shot_Learning
 Matching Networks for One Shot Learning
 
+논문) 적은 수의 데이터로도 딥러닝을 학습할 수 있도록 하는 모델  
+논문) A Label을 학습한 Matching Network로 B Label을 재학습 없이도 Test 가능  
+==> 추후 실험 진행해보자.
+
 ## paper
 https://arxiv.org/abs/1606.04080
 
@@ -27,4 +31,5 @@ Matching Network for One Shot Learning Model을 학습하고 테스트 하는 �
 ## Test Result (CNN vs Matching Network for One Shot Learning)
 Matching Network는 10-Way 5-Shot. (way: # classes, shot: # memory data per class)  
 CNN의 학습 데이터: Matching Network의 학습 데이터 + shot (CNN은 shot이 필요 없으므로)  
+  
 ![testImage](./result/result.PNG)
